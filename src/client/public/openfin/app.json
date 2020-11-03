@@ -113,7 +113,7 @@
                           "componentName": "view",
                           "contextMenu": true,
                           "componentState": {
-                            "url": "http://www.google.com",
+                            "url": "{*host_url*}/tiles",
                             "name": "Tiles"
                           },
                           "isClosable": true,
