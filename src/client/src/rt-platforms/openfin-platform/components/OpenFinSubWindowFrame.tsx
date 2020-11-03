@@ -91,26 +91,27 @@ export const OpenFinSubWindowFrame: React.FC = () => {
   const title = `${getAppName()}${windowName ? ` - ${windowName}` : ''}`
 
   return (
-    <OpenFinSubFrameRoot>
-      <Helmet>
-        <style type="text/css">{`
-        :root, body {
-          font-size: 16px;
-        }
-        body, select, button, li, span, div {
-          font-family: inherit;
-          color: inherit;
-        }
-    `}</style>
-      </Helmet>
-      <OpenFinChrome>
-        <OpenFinSubWindowHeader {...headerControlHandlers} title={title} />
+    <div id="layout-container"></div>
+    // <OpenFinSubFrameRoot>
+    //   <Helmet>
+    //     <style type="text/css">{`
+    //     :root, body {
+    //       font-size: 16px;
+    //     }
+    //     body, select, button, li, span, div {
+    //       font-family: inherit;
+    //       color: inherit;
+    //     }
+    // `}</style>
+    //   </Helmet>
+    //   <OpenFinChrome>
+    //     <OpenFinSubWindowHeader {...headerControlHandlers} title={title} />
 
-        <LayoutRoot>
-          {/* This div and id is required by Openfin */}
-          <div id="layout-container"></div>
-        </LayoutRoot>
-      </OpenFinChrome>
-    </OpenFinSubFrameRoot>
+    //     <LayoutRoot>
+    //       {/* This div and id is required by Openfin */}
+    //       <div id="layout-container"></div>
+    //     </LayoutRoot>
+    //   </OpenFinChrome>
+    // </OpenFinSubFrameRoot>
   )
 }

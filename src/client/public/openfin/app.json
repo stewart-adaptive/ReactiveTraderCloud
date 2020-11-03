@@ -52,6 +52,7 @@
         "frame": false,
         "shadow": true,
         "_comment": "Openfin Excel API preloaded below + added in appAssets (not included in standard OpenFin package)",
+        "showBackgroundImages": true,
         "preload": [
           {
             "url": "{*host_url*}/plugin/service-loader.js"
@@ -112,7 +113,7 @@
                           "componentName": "view",
                           "contextMenu": true,
                           "componentState": {
-                            "url": "{*host_url*}/tiles",
+                            "url": "http://www.google.com",
                             "name": "Tiles"
                           },
                           "isClosable": true,
@@ -132,7 +133,7 @@
                           "type": "component",
                           "componentName": "view",
                           "componentState": {
-                            "url": "{*host_url*}/blotter",
+                            "url": "http://www.google.com",
                             "name": "Blotter"
                           },
                           "isClosable": true,
@@ -154,7 +155,7 @@
                       "type": "component",
                       "componentName": "view",
                       "componentState": {
-                        "url": "{*host_url*}/analytics",
+                        "url": "http://www.google.com",
                         "name": "Analytics"
                       },
                       "isClosable": true,
